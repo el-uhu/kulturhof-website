@@ -1,3 +1,6 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "de-at"
+title = "Kulturhofkeller Villach"
+
+address = "Lederergasse 17, 9500 Villach"
+email = "office@kulturhofkeller.at"
