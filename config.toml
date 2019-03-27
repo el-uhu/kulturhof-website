@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "de-at"
-title = "Kulturhofkeller Villach"
+title = ":Kulturhofkeller Villach"
 theme = "kulturhof-hugo"
 
 [params]
