@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+      <title> {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }} </title>
+      <meta charset="utf-8">
+
+      <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/main.css">
+      {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
+  </head>
+
+  <body>
+    <!-- Main -->
+    <div class="grid-container">
+      <div class="header grid-item">
+        <h1>{{ .Title }}</h1>
+      </div>
+
+      <div class="menu grid-item">
+      </div>
+
+      <div class="main grid-item">
+        <div class="grid-item">
+        <!-- Loop through all posts -->
+        {{ range .Pages }}
+                <h2>{{ .Title }}</h2>
+
+                <p>
+                    <small>{{ .Date.Format "02.01.2006" }}</small>
+                </p>
+
+                {{ .Summary }}
+
+                <p>
+                    <a class="readmore" href="{{ .RelPermalink }}">Weiterlesen</a>
+                </p>
+        {{ end }}
+        <!-- End loop -->
+        </div>
+      </div>
+      <div class="info grid-item">
+        <div class="">
+          <p>{{ .Site.Params.address }}</p>
+          <p>{{ .Site.Params.email }}</p>
+          <p>{{ .Site.Params.phone }}</p>
+        </div>
+      </div>
+    </div> <!-- Main -->
+  </body>
+</html>
