@@ -2,10 +2,14 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
+      <div class="grid-container">
         {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
+        {{- partial "menu.html" . -}}
+        <div id="content" class="main grid-item">
+          {{- block "main" . }}{{- end }}
         </div>
+        {{- partial "info.html" . -}}
         {{- partial "footer.html" . -}}
+      </div>
     </body>
 </html>

@@ -6,5 +6,5 @@ vvk:
 ak:
 erm:
 entry-link:
-tags: [] # "Concert", "Theater", "Lesung", "Performance"
+type: # "konzert", "theater", "lesung", "performance", "clubbing", "sonstige"
 ---

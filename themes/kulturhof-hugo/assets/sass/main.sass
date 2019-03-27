@@ -1,0 +1,68 @@
+@import colors
+
+.body
+  margin: 0px
+
+.grid-container
+  display: grid
+  grid-template-areas: 'header header header' 'menu main info' 'footer footer footer'
+  grid-template-columns: 20% 1fr 20%
+  grid-template-rows: auto 1fr auto
+  height: 100vh
+
+.header
+  grid-area: header
+  background-color: $background-color-darken
+  padding: 20px
+
+.menu
+  grid-area: menu
+  background-color: $background-color-active
+  padding: 20px
+
+.main
+  grid-area: main
+  background-color: $background-color-active
+  padding: 20px
+
+.info
+  grid-area: info
+  background-color: $background-color-active
+  padding: 20px
+
+.footer
+  grid-area: footer
+
+h1, h2, h3, h4, h5, h6, p
+  font-family: "Fira Mono"
+  color: $text-color
+
+a
+  color: $text-color-error
+  text-decoration: none
+
+h1
+  color: $text-color-info
+
+h2, h3, h4, h5
+  color: $text-color-info
+
+konzert
+  h1, h2, h3, h4, h5
+    color: $cyan
+
+theater
+  h1, h2, h3, h4, h5
+    color: $red
+
+clubbing
+  h1, h2, h3, h4, h5
+    color: $green
+
+lesung
+  h1, h2, h3, h4, h5
+    color: $orange
+
+sonstige
+  h1, h2, h3, h4, h5
+    color: $purple

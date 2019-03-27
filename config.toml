@@ -7,3 +7,10 @@ theme = "kulturhof-hugo"
   address = "Lederergasse 17, 9500 Villach"
   email = "office@kulturhofkeller.at"
   phone = "+43 699 15088177"
+
+  [social]
+    facebook = ""
+    twitter = ""
+    youtube = ""
+    snapchat = ""
+    instagram = ""
