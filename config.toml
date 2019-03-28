@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://el-uhu.github.io/kulturhof-website/"
 languageCode = "de-at"
 title = ":Kulturhofkeller Villach"
 theme = "kulturhof-hugo"

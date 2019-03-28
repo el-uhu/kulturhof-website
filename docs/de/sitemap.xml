@@ -3,139 +3,139 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/de/event/sonstige/</loc>
+    <loc>https://el-uhu.github.io/kulturhof-website/de/event/sonstige/</loc>
     <lastmod>2019-03-27T18:28:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/event/sonstige/"
+                href="https://el-uhu.github.io/kulturhof-website/event/sonstige/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://example.org/de/event/sonstige/"
+                href="https://el-uhu.github.io/kulturhof-website/de/event/sonstige/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de/event/2019-03-30-nabil/</loc>
+    <loc>https://el-uhu.github.io/kulturhof-website/de/event/2019-03-30-nabil/</loc>
     <lastmod>2019-03-27T18:28:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/event/2019-03-30-nabil/"
+                href="https://el-uhu.github.io/kulturhof-website/event/2019-03-30-nabil/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://example.org/de/event/2019-03-30-nabil/"
+                href="https://el-uhu.github.io/kulturhof-website/de/event/2019-03-30-nabil/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de/event/clubbing/</loc>
+    <loc>https://el-uhu.github.io/kulturhof-website/de/event/clubbing/</loc>
     <lastmod>2019-03-27T18:28:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/event/clubbing/"
+                href="https://el-uhu.github.io/kulturhof-website/event/clubbing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://example.org/de/event/clubbing/"
+                href="https://el-uhu.github.io/kulturhof-website/de/event/clubbing/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de/event/lesung/</loc>
+    <loc>https://el-uhu.github.io/kulturhof-website/de/event/lesung/</loc>
     <lastmod>2019-03-27T18:28:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/event/lesung/"
+                href="https://el-uhu.github.io/kulturhof-website/event/lesung/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://example.org/de/event/lesung/"
+                href="https://el-uhu.github.io/kulturhof-website/de/event/lesung/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de/event/theater/</loc>
+    <loc>https://el-uhu.github.io/kulturhof-website/de/event/theater/</loc>
     <lastmod>2019-03-27T18:28:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/event/theater/"
+                href="https://el-uhu.github.io/kulturhof-website/event/theater/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://example.org/de/event/theater/"
+                href="https://el-uhu.github.io/kulturhof-website/de/event/theater/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de/categories/</loc>
+    <loc>https://el-uhu.github.io/kulturhof-website/de/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/categories/"
+                href="https://el-uhu.github.io/kulturhof-website/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://example.org/de/categories/"
+                href="https://el-uhu.github.io/kulturhof-website/de/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de/event/</loc>
-    <lastmod>2019-03-27T18:28:52+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://example.org/event/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://example.org/de/event/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://example.org/de/</loc>
+    <loc>https://el-uhu.github.io/kulturhof-website/de/event/</loc>
     <lastmod>2019-03-27T18:28:52+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/"
+                href="https://el-uhu.github.io/kulturhof-website/event/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://example.org/de/"
+                href="https://el-uhu.github.io/kulturhof-website/de/event/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de/tags/</loc>
+    <loc>https://el-uhu.github.io/kulturhof-website/de/</loc>
+    <lastmod>2019-03-27T18:28:52+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/tags/"
+                href="https://el-uhu.github.io/kulturhof-website/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://example.org/de/tags/"
+                href="https://el-uhu.github.io/kulturhof-website/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://el-uhu.github.io/kulturhof-website/de/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://el-uhu.github.io/kulturhof-website/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://el-uhu.github.io/kulturhof-website/de/tags/"
                 />
   </url>
   
