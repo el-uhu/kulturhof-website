@@ -1,14 +1,27 @@
 <div class="info grid-item">
-  <div class="info-content">
+  <div class="info-content contact">
     <p>
       <a class="address" href="https://www.google.com/maps/place/Kulturhofkeller/@46.6155306,13.8441295,17z/data=!3m1!4b1!4m5!3m4!1s0x477081dadedf5d2b:0xda0be08e7ac0b636!8m2!3d46.6155306!4d13.8463182" target="_blank"><i class="fas fa-map-marked-alt"></i> {{ .Site.Params.address }}</a>
     </p>
     <p>
-      <a class="email" href="mailto:{{ .Site.Params.email }}" target="_blank"><i class="far fa-envelope"></i>
- {{ .Site.Params.email }}</a>
+      <a class="email" href="mailto:{{ .Site.Params.email }}" target="_blank"><i class="far fa-envelope"></i> {{ .Site.Params.email }}</a>
     </p>
     <p>
       <a class="phone" href="tel:{{ .Site.Params.phone }}" target="_blank"><i class="fas fa-phone"></i> {{ .Site.Params.phone }}</a>
     </p>
+  </div>
+  <!-- Begin Mailchimp Signup Form -->
+  <div id="mc_embed_signup" class="mailchimp">
+    <form action="https://kulturhofkeller.us6.list-manage.com/subscribe/post?u=3d90619c27a2dfcc0feffa003&amp;id=751d8865d6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <i class="fas fa-paper-plane mail"> </i>
+    	<label for="mce-EMAIL"> Subscribe to our mailing list</label>
+    	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3d90619c27a2dfcc0feffa003_751d8865d6" tabindex="-1" value=""></div>
+
+      <div class="clear"><input type="submit" value="Go!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+    </form>
   </div>
 </div>

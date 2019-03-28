@@ -1,0 +1,17 @@
+<div class="event-header">
+  <h4 class="type {{ .Params.type }}"> // {{ .Params.type }} // </h4>
+  <h2 class="eventtitle">{{ .Title }}</h2>
+  <p>
+    <small>{{ .Date.Format "02.01.2006" }}</small>
+  </p>
+  <p class="tickets">
+    <a href="{{ .Params.ntry }}">
+      <i class="fas fa-ticket-alt"></i>
+      VVK {{ .Params.vvk }}€ // AK {{ .Params.ak }}€ / {{ .Params.erm }}€
+    </a>
+  </p>
+  <div class="feature-content">
+    
+    <iframe width="100%" height="263px" src="{{ .Params.youtube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>

@@ -1,2 +1,47 @@
 <div class="menu grid-item">
+    <nav class="menu">
+      <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="menu-item">
+          <a href="{{ .URL }}">{{ .Pre}} {{ .Name }}</a>
+        </li>
+        {{ end }}
+        <li class="menu-item">
+          <a href="#" class="konzert">
+            / konzerte
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="theater">
+            / theater
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="kabarett">
+            / kabarett
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="lesung">
+            / lesung
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="vortrag">
+            / vortrag
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="performance">
+            / performance
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="clubbing">
+            / clubbing
+          </a>
+        </li>
+      </ul>
+    </nav>
 </div>

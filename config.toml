@@ -2,15 +2,91 @@ baseURL = "http://example.org/"
 languageCode = "de-at"
 title = ":Kulturhofkeller Villach"
 theme = "kulturhof-hugo"
+publishdir = "docs"
 
 [params]
   address = "Lederergasse 17, 9500 Villach"
   email = "office@kulturhofkeller.at"
   phone = "+43 699 15088177"
 
-  [social]
-    facebook = ""
-    twitter = ""
-    youtube = ""
-    snapchat = ""
-    instagram = ""
+  [params.social]
+  [params.social.instagram]
+  name = "instagram"
+  link = "https://www.instagram.com/kulturhofkeller/"
+  icon = "fab fa-instagram fa-lg"
+  [params.social.facebook]
+    name = "facebook"
+    link = "http://www.facebook.com/kulturhofkeller"
+    icon = "fab fa-facebook-square fa-lg"
+  [params.social.youtube]
+    name = "youtube"
+    link = "https://www.youtube.com/channel/UCgnVBE8INeLEh50VaZlSZZg"
+    icon = "fab fa-youtube fa-lg"
+
+[languages]
+  [languages.en]
+    title = "Kulturhofkeller"
+    contentDir = "content/english"
+    languageName = "English"
+    weight = 10
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "home"
+        pre = ":"
+        url = "/"
+        weight = -120
+
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "about us"
+        pre = "?"
+        url = "/about/"
+        weight = -110
+
+      [[languages.en.menu.main]]
+        identifier = "support"
+        name = "support"
+        pre = "$"
+        url = "/support/"
+        weight = -100
+
+      [[languages.en.menu.main]]
+        name = "deutsch"
+        post = "<span class='alert'>New!</span>"
+        pre = "#"
+        url = "/de"
+        weight = -90
+
+  [languages.de]
+    title = "Kulturhofkeller"
+    contentDir = "content/deutsch"
+    languageName = "Deutsch"
+    weight = 20
+
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        identifier = "home"
+        name = "home"
+        pre = ":"
+        url = "/"
+        weight = -120
+      [[languages.de.menu.main]]
+        identifier = "about"
+        name = "über uns"
+        pre = "?"
+        url = "/de/about/"
+        weight = -110
+      [[languages.de.menu.main]]
+        identifier = "support"
+        name = "unterstützung"
+        pre = "$"
+        url = "/support/"
+        weight = -100
+      [[languages.de.menu.main]]
+        name = "english"
+        post = "<span class='alert'>New!</span>"
+        pre = "#"
+        url = "/"
+        weight = -70

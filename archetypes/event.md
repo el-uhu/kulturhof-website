@@ -5,6 +5,6 @@ draft: true
 vvk:
 ak:
 erm:
-entry-link:
+ntry:
 type: # "konzert", "theater", "lesung", "performance", "clubbing", "sonstige"
 ---

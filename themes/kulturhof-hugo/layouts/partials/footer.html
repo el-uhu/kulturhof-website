@@ -1,0 +1,14 @@
+<div class="footer">
+  <div class="social">
+      {{ range .Site.Params.social }}
+        <span class="social-item {{ .name }}">
+          <a href="{{ .link }}">
+            <i class="{{ .icon }}"></i>
+          </a>
+        </span>
+      {{ end }}
+  </div>
+  <div class="copyright">
+    <p class="smallprint">© 2019, Kulturhofkeller Villach</p>
+  </div>
+</div>

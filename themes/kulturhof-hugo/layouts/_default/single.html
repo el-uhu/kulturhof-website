@@ -1,11 +1,10 @@
 {{ define "main" }}
-<div class="{{ .Params.type }}">
-  <h2>{{ .Title }}</h2>
-  <p>
-    <small>{{ .Date.Format "02.01.2006" }}</small>
-  </p>
-  <p>
-    {{ .Content }}
-  </p>
+<div id="{{ .Name }}" class="event-info {{ .Params.type}}">
+  {{ partial "event-header.html" .}}
+  <div class="event-content">
+    <p>
+      {{ .Content }}
+    </p>
+  </div>
 </div>
 {{ end }}
