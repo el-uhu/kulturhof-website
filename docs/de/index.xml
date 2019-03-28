@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kulturhofkeller</title>
+    <link>http://example.org/de/</link>
+    <description>Recent content on Kulturhofkeller</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-at</language>
+    <lastBuildDate>Wed, 27 Mar 2019 18:28:52 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/de/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jour Fixe mit LH Peter Kaiser &amp; IG KIKK / kult:villach / kulturforum villach</title>
+      <link>http://example.org/de/event/sonstige/</link>
+      <pubDate>Wed, 27 Mar 2019 18:28:52 +0100</pubDate>
+      
+      <guid>http://example.org/de/event/sonstige/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Nabil and Friends: RELOCATED</title>
+      <link>http://example.org/de/event/2019-03-30-nabil/</link>
+      <pubDate>Wed, 27 Mar 2019 18:28:52 +0100</pubDate>
+      
+      <guid>http://example.org/de/event/2019-03-30-nabil/</guid>
+      <description>Nabil &amp;amp; Friends spielen hauptsächlich Songs im Stil von RELOCATED, Coverversionen in eigenständiger und unverwechselbarer Interpretation. Neben Blues Standards und Traditionals sowie Vertonungen von Gedichten finden sich Songs von Liedermachern wie Bob Dylan oder Jaques Brel darunter.
+Mit:
+NABIL aka Alfred Goubran, Schriftsteller, Musiker &amp;amp; Komponist mit österreichischen &amp;amp; ägyptischen Wurzeln.
+Stephan Simmering Sunshine Stanzel (Vocals, Bass, Guitar) Komponist, Texter, Gitarrist und Sänger bei der Band A Life, A Song, A Cigarette.</description>
+    </item>
+    
+    <item>
+      <title>Test-Clubbing</title>
+      <link>http://example.org/de/event/clubbing/</link>
+      <pubDate>Wed, 27 Mar 2019 18:28:52 +0100</pubDate>
+      
+      <guid>http://example.org/de/event/clubbing/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Test-Lesung</title>
+      <link>http://example.org/de/event/lesung/</link>
+      <pubDate>Wed, 27 Mar 2019 18:28:52 +0100</pubDate>
+      
+      <guid>http://example.org/de/event/lesung/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Test-Theater</title>
+      <link>http://example.org/de/event/theater/</link>
+      <pubDate>Wed, 27 Mar 2019 18:28:52 +0100</pubDate>
+      
+      <guid>http://example.org/de/event/theater/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+  </channel>
+</rss>
