@@ -4,5 +4,6 @@
     {{ $style := resources.Get "sass/main.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700" rel="stylesheet">
     {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
 </head>
