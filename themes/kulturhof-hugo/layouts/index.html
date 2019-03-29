@@ -1,14 +1,18 @@
 {{ define "main" }}
   {{ range .Pages }}
-    <div id="{{ .Name }}" class="event-info {{ .Params.type}}">
-      {{ partial "event-header.html" .}}
+    <div id="{{ .Name }}" class="event-info ov {{ .Params.type}}">
+      <div class="ev-header">
+        <a class="readmore" href="{{ .RelPermalink }}">
+          {{ partial "event-header.html" .}}
+        </a>
+      </div>
       <div class="summary">
         <p>
           {{ .Summary }}
         </p>
-        <p>
-          <a class="readmore" href="{{ .RelPermalink }}">Weiterlesen</a>
-        </p>
+      </div>
+      <div class="featured">
+        {{ partial "feature-content.html" . }}
       </div>
     </div>
   {{ end }}

@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div id="{{ .Name }}" class="event-info {{ .Params.type}}">
   {{ partial "event-header.html" .}}
+  {{ partial "feature-content.html" . }}
   <div class="event-content">
     <p>
       {{ .Content }}

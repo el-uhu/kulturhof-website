@@ -5,10 +5,14 @@
 $xsmall: 576px
 $small: 800px
 $medium: 1200px
-$large: 1400px
+$large: 1500px
 
 body
   margin: 0px
+  font-size: 12pt
+  @media screen and (min-width: $medium) and (max-width: $large)
+    font-size: 14pt
+
 
 //
 // MAIN LAYOUT
@@ -34,35 +38,84 @@ body
   grid-area: header
   background-color: $background-color-darken
   padding: 20px
-  padding-left: 21%
+  padding-left: 60px
+  @media screen and (max-width: $medium)
+    padding-left: 40px
+
+#header
+  -webkit-transition: all 4s ease
+  -moz-transition: all 4s ease
+  -o-transition: all 4s ease
+  transition: all 4s ease
+
+
+.smaller
+  height: 60px
+
 
 .menu
   grid-area: menu
   background-color: $background-color-active
   padding: 20px
-  position: sticky
+  display: grid
+  grid-template-areas: 'main-menu' 'spacer' 'category-menu'
+  grid-template-rows: 100px 1fr 200px
   @media screen and (max-width: $large)
     padding: 0px
+    grid-template-areas: 'main-menu spacer category-menu'
+    grid-template-columns: 1fr 0fr 1fr
+    grid-template-rows: 1fr
+
+.hide-h
+  @media screen and (max-width: $large)
+    display: none
+
+.menu-item:hover
+  &.hide-h
+    display: block
+
+.main-menu
+  grid-area: main-menu
+
+.category-menu
+  grid-area: category-menu
 
 .main
   grid-area: main
   background-color: $background-color-active
   padding: 20px
   overflow: auto
-  display: grid
-  grid-template-columns: 1fr 1fr
-  @media only screen and (max-device-width: $small)
-    display: block
-    overflow: visible
+  @media screen and (max-width: $small)
+    overflow: scroll
 
 .event-info
   padding: 15px
   border-left: 4px
   border-left-style: solid
   margin-bottom: 18px
-  margin-left: 18px
+  margin-left: auto
+  margin-right: auto
   background: $app-background-color
-  // text-align: justify
+  &.ov
+    display: grid
+    grid-template-areas: 'ev-header featured' 'summary featured'
+    grid-template-columns: 1fr 1fr
+    @media screen and (max-width: $medium)
+      grid-template-areas: 'ev-header' 'featured' 'summary'
+      grid-template-rows: auto auto auto
+      grid-template-columns: 1fr
+    .ev-header
+      grid-area: ev-header
+
+    .summary
+      grid-area: summary
+      padding-right: 20px
+      @media screen and (max-width: $medium)
+        padding: 0px
+
+    .featured
+      grid-area: featured
+
 
 .event-info:hover
   box-shadow: 6px 6px $background-color-darken
@@ -98,22 +151,29 @@ body
   padding: 20px
   display: grid
   grid-template-areas: 'picture' 'contact' 'mailchimp'
-  grid-template-rows: 60% 20% 20%
+  grid-template-rows: 1fr 160px 100px
   @media screen and (min-width: $small) and (max-width: $medium)
     grid-template-areas: 'contact picture mailchimp'
     grid-template-columns: 350px 1fr 350px
+    grid-template-rows: 100px
   @media screen and (max-device-width: $small)
     grid-template-areas: 'picture' 'contact' 'mailchimp'
-    grid-template-rows: 0% 50% 50%
+    grid-template-columns: 350px
+    grid-template-rows: 0fr 1fr 1fr
+
 
 .info-content
   border-bottom: 0.5px
   border-color: $text-color-error
 
 .contact
+  width: 310px
+  margin-left: auto
+  margin-right: auto
   grid-area: contact
 
 .mailchimp
+  width: 310px
   grid-area: mailchimp
   margin-left: auto
   margin-right: auto
@@ -193,7 +253,7 @@ a:hover
 h1, h2, h3, h4, h5
   color: $text-color
 
-ul
+ul.menu-list
   list-style: none
 
 li.menu-item
