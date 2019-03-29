@@ -2,14 +2,16 @@
 @import colors
 
 // A map of breakpoints.
-$xsmall: 576px
-$small: 800px
-$medium: 1200px
+$small: 300px
+$medium: 1040px
 $large: 1500px
 
 body
   margin: 0px
-  font-size: 1.7vh
+  font-size: 12pt
+  @media screen and (max-width: $small)
+    font-size: 1.6vh
+
 
 
 //
