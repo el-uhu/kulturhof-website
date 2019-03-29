@@ -9,9 +9,7 @@ $large: 1500px
 
 body
   margin: 0px
-  font-size: 12pt
-  @media screen and (min-width: $medium) and (max-width: $large)
-    font-size: 14pt
+  font-size: 1.7vh
 
 
 //
@@ -31,7 +29,7 @@ body
   @media screen and (max-width: $medium)
     grid-template-areas: 'header' 'menu' 'main' 'info' 'footer'
     grid-template-columns: auto
-    grid-template-rows: auto auto 1fr auto auto
+    grid-template-rows: auto auto 1fr 10em auto
 
 
 .header
@@ -42,15 +40,9 @@ body
   @media screen and (max-width: $medium)
     padding-left: 40px
 
-#header
-  -webkit-transition: all 4s ease
-  -moz-transition: all 4s ease
-  -o-transition: all 4s ease
-  transition: all 4s ease
-
-
+// class used by jquery function to make header smaller when scrolling
 .smaller
-  height: 60px
+  height: 100px
 
 
 .menu
@@ -86,7 +78,7 @@ body
   padding: 20px
   overflow: auto
   @media screen and (max-width: $small)
-    overflow: scroll
+    overflow: visible
 
 .event-info
   padding: 15px
@@ -157,8 +149,9 @@ body
     grid-template-columns: 350px 1fr 350px
     grid-template-rows: 100px
   @media screen and (max-device-width: $small)
+    text-align: center
     grid-template-areas: 'picture' 'contact' 'mailchimp'
-    grid-template-columns: 350px
+    grid-template-columns: auto
     grid-template-rows: 0fr 1fr 1fr
 
 
@@ -171,26 +164,42 @@ body
   margin-left: auto
   margin-right: auto
   grid-area: contact
+  @media screen and (max-device-width: $small)
+    width: auto
+
 
 .mailchimp
   width: 310px
   grid-area: mailchimp
   margin-left: auto
   margin-right: auto
+  @media screen and (max-device-width: $small)
+    width: auto
 
 .footer
   grid-area: footer
   background-color: $background-color-darken
   height: 50px
   padding: 10px
+  display: grid
+  height: auto
   text-align: center
+  grid-template-areas: 'contactfooter social newsletter'
+  grid-template-columns: 1fr 1fr 1fr
+
+.contactfooter
+  grid-area: contactfooter
+  padding: 1.2em
 
 .social
-  padding: 10px
+  grid-area: social
+  padding: 1.2em
+
+.newsletter
+  grid-area: newsletter
 
 .social-item
   margin-right: 15px
-
 
 //
 //  FONTS
@@ -296,7 +305,7 @@ h4.performance,a.performance
 span.dots
   font-family: $main-font
   font-weight: 800
-  font-size: 40px
+  font-size: 1.2em
 
 .smallprint
   font-size: 9px

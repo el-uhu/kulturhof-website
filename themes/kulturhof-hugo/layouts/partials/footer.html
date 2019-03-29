@@ -1,4 +1,15 @@
 <div class="footer">
+  <div class="contactfooter">
+    <span class="social-item">
+      <a class="address" href="https://www.google.com/maps/place/Kulturhofkeller/@46.6155306,13.8441295,17z/data=!3m1!4b1!4m5!3m4!1s0x477081dadedf5d2b:0xda0be08e7ac0b636!8m2!3d46.6155306!4d13.8463182" target="_blank"><i class="fas fa-map-marked-alt"></i></a>
+    </span>
+    <span class="social-item">
+      <a class="email" href="mailto:{{ .Site.Params.email }}" target="_blank"><i class="far fa-envelope"></i></a>
+    </span>
+    <span class="social-item">
+      <a class="phone" href="tel:{{ .Site.Params.phone }}" target="_blank"><i class="fas fa-phone"></i></a>
+    </span>
+  </div>
   <div class="social">
       {{ range .Site.Params.social }}
         <span class="social-item {{ .name }}">
@@ -7,8 +18,8 @@
           </a>
         </span>
       {{ end }}
+      <p class="smallprint" style="padding-top:5px">© 2019, Kulturhofkeller Villach</p>
   </div>
   <div class="copyright">
-    <p class="smallprint">© 2019, Kulturhofkeller Villach</p>
   </div>
 </div>
